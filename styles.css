@@ -1,33 +1,58 @@
 body {
   text-align: center;
-  /* background-color: #011F3F; */
-  background-image: url(background.jpg);
+  background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+  /* background-image: url(background.jpg); */
+
+  background-repeat: no-repeat;
+  background-size:100% 100vh;
+  margin-bottom: 0;
+  /* background-color: white; */
+  /* background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fracing-flag&psig=AOvVaw1H_hLd2f27sn6Xv3LBP95X&ust=1704624340657000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKDw-drKyIMDFQAAAAAdAAAAABAD'); */
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 2rem;
+  margin:  3%;
+  margin-top: 8%;
+  color: #f15425;
+
+}
+
+#any{
   color: #FEF2BF;
+
 }
 
 .container {
   display: block;
-  width: 50%;
+  width: 32%;
+  
   margin: auto;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 2px solid  black;
-  border-radius: 15%;
+  height: 160px;
+  width: 160px;
+  /* border: 2px solid  black; */
+  border-radius: 10%;
   box-shadow: 0px 0px 10px black;
   cursor: pointer;
+  transition: transform 0.3s;
 
+}
+
+.btn:hover{
+  transform: scale(1.05);
 }
 
 .game-over {
@@ -36,25 +61,25 @@ body {
 }
 
 .red {
-  background-color: red;
-  background-image: linear-gradient(180deg, red ,rgb(229, 74, 74));
+  background-color: rgb(204, 29, 29);
+  background-image: linear-gradient(180deg, rgb(209, 29, 29) ,rgb(229, 74, 74));
 }
 
 .green {
-  background-color: green;
-  background-image: linear-gradient(180deg, green ,rgb(74, 229, 77));
+  background-color: rgb(14, 135, 14);
+  background-image: linear-gradient(180deg, rgb(15, 145, 15) ,rgb(74, 229, 77));
 
 }
 
 .blue {
-  background-color: blue;
-  background-image: linear-gradient(0, blue ,rgb(100, 74, 229));
+  background-color: rgb(34, 34, 216);
+  background-image: linear-gradient(0, rgb(34, 34, 195) ,rgb(100, 74, 229));
 
 }
 
 .yellow {
-  background-color: yellow;  
-  background-image: linear-gradient(0, yellow ,rgb(225, 228, 82));
+  background-color: rgb(215, 215, 34);  
+  background-image: linear-gradient(0, rgb(214, 214, 43) ,rgb(225, 228, 82));
 }
 
 .pressed {
